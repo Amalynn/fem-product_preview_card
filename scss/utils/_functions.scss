@@ -1,0 +1,20 @@
+@use 'sass:math';
+
+// Convert px to rem 
+@function pxToRem($px){
+    @if (math.is-unitless($px)) {
+        $rem: math.div($px, 16) ;
+        @return $rem * 1rem;
+    }
+    @error "Don't use units when using the pxToRem() function, only numbers";      
+}
+
+// Convert px to em 
+@function pxToEm($px){
+    @if (math.is-unitless($px)) {
+        $em: math.div($px, 16) ;
+        @return $em * 1em;
+    }
+    @error "Don't use units when using the em() function, only numbers";      
+}
+    

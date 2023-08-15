@@ -1,0 +1,13 @@
+{
+  "name": "fem-product_preview_card",
+  "version": "1.0.0",
+  "description": "![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./scss/style.scss ./public/css/style.css",
+    "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefix/ "
+  },
+  "author": "Amalynn",
+  "license": "ISC",
+  "browserslist": "last 3 versions"
+}

@@ -1,0 +1,27 @@
+@use '../utils/variables' as var;
+@use '../utils/functions' as f;
+
+.btn {
+    background-color: var.$primary-color ;
+    width: 100%;
+    border: none;
+    color: var.$white;
+    font-family: var.$montserrat;
+    font-size: f.pxToRem(14);
+    font-weight: 700;
+    border-radius: 8px;
+    padding: f.pxToRem(16) 0;
+    display: flex;
+    justify-content: center;
+    transition: background-color 300ms ease-in-out;
+
+    &:hover {
+        background-color: var.$hover-color;
+        cursor: pointer;
+    }
+    
+    &__icon {
+        margin-right: f.pxToRem(11);        
+    }
+
+}
