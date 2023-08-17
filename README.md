@@ -1,6 +1,6 @@
 # Frontend Mentor - Product preview card component solution
 
-![Level - Newbie](https://img.shields.io/badge/Level-Newbie- ?style=for-the-badge#6abecd)
+![Level - Newbie](https://img.shields.io/badge/Level-Newbie-?style=for-the-badge#6abecd)
 
 This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile solution screenshot](./design/product-preview-card-component-solution-mobile.jpg|height=447px)
-![Desktop solution screenshot ](./design/product-preview-card-component-solution-desktop.jpg|width=686px)
+![Mobile solution screenshot](./design/product-preview-card-component-solution-mobile.jpg)
+![Desktop solution screenshot ](./design/product-preview-card-component-solution-desktop.jpg)
 
 
 ### Links
